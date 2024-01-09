@@ -59,3 +59,5 @@ if __name__ == '__main__':
     for slot in free_slots:
         print(f"Free slot: {slot['start'].strftime('%H:%M')}"
               f" - {slot['stop'].strftime('%H:%M')}")
+
+
